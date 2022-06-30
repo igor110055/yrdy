@@ -1,0 +1,14 @@
+.horizontal-bar__button {
+    opacity: 1;
+}
+
+@media(min-width: 768px){
+    .horizontal-bar__button {
+        display:block;
+        opacity: 0;
+        transition: .3s ease-in-out;
+    }
+    .horizontal-bar__button-show {
+        opacity: 1;
+    }
+}
